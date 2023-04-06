@@ -9,11 +9,13 @@ import HoroscopePage from './pages/HoroscopePage/HoroscopePage';
 import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
+import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
 
 function App() {
   return (
     <div className="App">
-      <NavigationComponent></NavigationComponent>
+      <NavigationComponent/>
+      
       <div>
       <Routes>
         <Route exact path="/" element={<HomePage/>}></Route>
@@ -23,10 +25,11 @@ function App() {
         <Route exact path="/music" element={<MusicPage/>}></Route>
         <Route exact path="/horoscope" element={<HoroscopePage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
-        
         <Route exact path="/login" element={<LoginPage/>}></Route>
       </Routes>
       </div>
+
+      <ChatbotComponent/>
     </div>
   );
 }
