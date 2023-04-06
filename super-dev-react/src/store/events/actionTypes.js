@@ -1,0 +1,3 @@
+export const GET_EVENTS= "GET_EVENTS"
+export const GET_EVENTS_OK= "GET_EVENTS_OK"
+export const GET_EVENTS_FAIL= "GET_EVENTS_FAIL"
