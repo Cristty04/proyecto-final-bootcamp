@@ -4,7 +4,7 @@ import EventsComponent from '../../components/EventsComponent/EventsComponent'
 export default function EventPage(){
   return(
     <Container>
-      <h1> Events Page Funcionó</h1>
+      <h1> Eventos</h1>
       <EventsComponent></EventsComponent>
     </Container>
   )

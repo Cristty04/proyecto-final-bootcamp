@@ -17,7 +17,8 @@ const EventsComponent = () => {
     if(loadingEvents){
       return(
         <Container>
-        <Bars>
+        <Bars  height={100}
+                width={100}>
         </Bars>
         </Container>
       )
