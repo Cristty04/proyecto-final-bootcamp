@@ -48,7 +48,7 @@
       "description": "Primera cita en Sevilla de un evento de estas características, no te lo puedes perder, hablaremos de las ultimas novedades de programación para estár actualizado en el mundo developer, escucharemos consejos y veremos talleres que impartiran los mejores programadores del momento. ¿Quieres estar al día? Te esperamos "
     }
   ],
-  "horoscopo": [
+  "horoscopos": [
     {
       "id": "1",
       "name": "Aries",
@@ -62,7 +62,7 @@
       "name": "Tauro",
       "date": "20 de abril al 20 de mayo",
       "image": "../super-dev-react/src/assets/images/icon-tauro.png",
-      "description": "Tauro, prepárate para un gran proyecto esta semana. Tu trabajo será alabar y hacer un gran esfuerzo para que tu código sea más eficiente y efectivo que nunca. Los astros te están animando a poner a prueba tu creatividad y habilidades técnicas.",
+      "prediction": "Tauro, prepárate para un gran proyecto esta semana. Tu trabajo será alabar y hacer un gran esfuerzo para que tu código sea más eficiente y efectivo que nunca. Los astros te están animando a poner a prueba tu creatividad y habilidades técnicas.",
       "lovers": "Los Tauro son leales y sensuales en el amor, pero a veces pueden ser tercos. Para tener una relación exitosa, deben aprender a comunicarse abiertamente con su pareja y estar dispuestos a ceder en algunas situaciones."
     },
     {
@@ -70,7 +70,7 @@
       "name": "Geminis",
       "date": "21 de mayo al 20 de junio",
       "image": "../super-dev-react/src/assets/images/ico-geminis.png",
-      "description": "Géminis, esta semana es un buen momento para expandir tus habilidades de programación. Prueba un nuevo lenguaje de programación o aprende una nueva técnica. ¡Nunca se sabe lo que puedes descubrir y cómo puede ayudarte en tu trabajo!",
+      "prediction": "Géminis, esta semana es un buen momento para expandir tus habilidades de programación. Prueba un nuevo lenguaje de programación o aprende una nueva técnica. ¡Nunca se sabe lo que puedes descubrir y cómo puede ayudarte en tu trabajo!",
       "lovers": "Los Géminis son curiosos y versátiles en el amor, pero pueden ser inconsistentes y distraídos. Para mantener una relación sana, deben aprender a mantener su atención en su pareja y demostrar su compromiso con acciones concretas."
     },
     {
@@ -78,7 +78,7 @@
       "name": "Cancer",
       "date": "21 de junio al 20 de julio",
       "image": "../super-dev-react/src/assets/images/ico-cancer.png",
-      "description": "Cáncer, cuidado con los bugs esta semana! Tu código puede ser tan difícil de detectar como un cangrejo escurridizo. Pero no te desesperes, hay una solución a todo. ¡Sigue trabajando duro y lo encontrarás!",
+      "prediction": "Cáncer, cuidado con los bugs esta semana! Tu código puede ser tan difícil de detectar como un cangrejo escurridizo. Pero no te desesperes, hay una solución a todo. ¡Sigue trabajando duro y lo encontrarás!",
       "lovers": " Los Cáncer son cariñosos y emocionales en el amor, pero pueden ser inseguros. Para tener una relación sana, deben aprender a confiar en sí mismos y en su pareja, y a no dejarse llevar por sus inseguridades."
     },
     {
@@ -86,7 +86,7 @@
       "name": "Leo",
       "date": "21 de julio al 22 de agosto",
       "image": "../super-dev-react/src/assets/images/ico-leo.png",
-      "description": "Leo, esta semana es un buen momento para liderar un proyecto. Toma las riendas y lidera el camino. Los astros te apoyan en tu camino hacia el éxito.",
+      "prediction": "Leo, esta semana es un buen momento para liderar un proyecto. Toma las riendas y lidera el camino. Los astros te apoyan en tu camino hacia el éxito.",
       "lovers": "Los Leo son generosos y apasionados en el amor, pero pueden ser un poco egoístas. Para mantener una relación equilibrada, deben aprender a escuchar a su pareja y a ser considerados con sus necesidades y deseos."
     },
     {
@@ -94,7 +94,7 @@
       "name": "Virgo",
       "date": " 23 de agosto al 22 de septiembre",
       "image": "../super-dev-react/src/assets/images/icon-virgo.png",
-      "description": " Esta semana, Virgo, dedica tiempo a la documentación de tu código. Es importante que otros programadores puedan entender lo que has creado y cómo funciona. Recuerda, el trabajo en equipo hace que el sueño funcione.",
+      "prediction": " Esta semana, Virgo, dedica tiempo a la documentación de tu código. Es importante que otros programadores puedan entender lo que has creado y cómo funciona. Recuerda, el trabajo en equipo hace que el sueño funcione.",
       "lovers": "Los Virgo son detallistas y serviciales en el amor, pero pueden ser críticos y exigentes. Para tener una relación satisfactoria, deben aprender a apreciar a su pareja y a no ser demasiado duros consigo mismos o con los demás."
     },
     {
@@ -102,7 +102,7 @@
       "name": "Libra",
       "date": " 23 de septiembre al 22 de octubre",
       "image": "../super-dev-react/src/assets/images/icon-libra.png",
-      "description": " Esta semana es una buena oportunidad para trabajar en la calidad de tu código, Libra. Asegúrate de que todo está en su lugar antes de enviarlo. Los astros dicen que un buen código es como un buen vino: sólo mejora con el tiempo.",
+      "prediction": " Esta semana es una buena oportunidad para trabajar en la calidad de tu código, Libra. Asegúrate de que todo está en su lugar antes de enviarlo. Los astros dicen que un buen código es como un buen vino: sólo mejora con el tiempo.",
       "lovers": "Los Libra son elegantes y románticos en el amor, pero pueden ser indecisos. Para tomar decisiones importantes en una relación, deben aprender a confiar en su intuición y a tomar riesgos cuando sea necesario."
     }, 
     {
@@ -110,7 +110,7 @@
       "name": "Escorpio",
       "date": " 23 de octubre al 21 de noviembre",
       "image": "../super-dev-react/src/assets/images/icon-libra.png",
-      "description": "Escorpio, esta semana es un buen momento para ser creativo. Piensa fuera de la caja y haz algo único y divertido con tu código. No temas tomar riesgos y experimentar con nuevas ideas. ¡Puede ser la clave para el éxito!",
+      "prediction": "Escorpio, esta semana es un buen momento para ser creativo. Piensa fuera de la caja y haz algo único y divertido con tu código. No temas tomar riesgos y experimentar con nuevas ideas. ¡Puede ser la clave para el éxito!",
       "lovers": "Los Escorpio son intensos y apasionados en el amor, pero pueden ser celosos y posesivos. Para tener una relación sana, deben aprender a confiar en su pareja y a comunicarse abiertamente sobre sus sentimientos y preocupaciones."
     },
     {
@@ -118,7 +118,7 @@
       "name": "Sagitario",
       "date": " 22 de noviembre al 21 de diciembre",
       "image": "../super-dev-react/src/assets/images/icon-sagitario.png",
-      "description": "Sagitario, esta semana es un buen momento para investigar nuevas herramientas y tecnologías de programación. Investiga y encuentra algo que pueda ayudarte a hacer tu trabajo más eficiente y efectivo. Los astros te aseguran que será una buena inversión de tiempo.",
+      "prediction": "Sagitario, esta semana es un buen momento para investigar nuevas herramientas y tecnologías de programación. Investiga y encuentra algo que pueda ayudarte a hacer tu trabajo más eficiente y efectivo. Los astros te aseguran que será una buena inversión de tiempo.",
       "lovers": " Los Sagitario son aventureros y divertidos en el amor, pero pueden ser un poco descuidados. Para mantener una relación saludable, deben aprender a comprometerse y a dedicar tiempo y energía a su pareja."
     },
     {
@@ -126,7 +126,7 @@
       "name": "Capricornio",
       "date": " 22 de diciembre al 19 de enero",
       "image": "../super-dev-react/src/assets/images/icon-capricornio.png",
-      "description": "Esta semana, Capricornio, es importante tomar un descanso de la programación. Pasa tiempo con amigos y familiares, relájate y recarga tus baterías. ¡Una mente fresca siempre produce los mejores resultados!",
+      "prediction": "Esta semana, Capricornio, es importante tomar un descanso de la programación. Pasa tiempo con amigos y familiares, relájate y recarga tus baterías. ¡Una mente fresca siempre produce los mejores resultados!",
       "lovers": "Los Capricornio son leales y comprometidos en el amor, pero pueden ser un poco reservados. Para tener una relación feliz, deben aprender a ser más abiertos y expresivos con sus sentimientos y a disfrutar de la compañía de su pareja."
     },
     {
@@ -134,7 +134,7 @@
       "name": "Acuario",
       "date": " 20 de enero al 18 de febrero",
       "image": "../super-dev-react/src/assets/images/icon-acuario.png",
-      "description": "Acuario, esta semana es un buen momento para centrarte en la calidad del diseño de tu código. Asegúrate de que el código no sólo funciona bien, sino que también es fácil de leer y entender. La belleza de tu código te llevará lejos.",
+      "prediction": "Acuario, esta semana es un buen momento para centrarte en la calidad del diseño de tu código. Asegúrate de que el código no sólo funciona bien, sino que también es fácil de leer y entender. La belleza de tu código te llevará lejos.",
       "lovers": "Los Acuario son innovadores y liberales en el amor, pero pueden ser un poco distantes. Para mantener una relación fuerte, deben aprender a conectar emocionalmente con su pareja y a mostrar su afecto de manera tangible."
     },
     {
@@ -142,7 +142,7 @@
       "name": "Piscis",
       "date": " 19 de febrero al 21 de marzo",
       "image": "../super-dev-react/src/assets/images/icon-piscis.png",
-      "description":"A veces necesitas desconctar. Este mes es la excusa perfecta. Dedica tiempo para ti, tu mente y tu cuerpo te lo agradecerá.",
+      "prediction":"A veces necesitas desconctar. Este mes es la excusa perfecta. Dedica tiempo para ti, tu mente y tu cuerpo te lo agradecerá.",
       "lovers": "Los Piscis son sensibles y románticos en el amor, pero pueden ser un poco soñadores. Para tener una relación exitosa, deben aprender a establecer límites saludables y a comunicarse de manera clara y efectiva con su pareja."
     }
   ],
