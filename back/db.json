@@ -4,24 +4,28 @@
     "events": [
     {
       "id": "1",
-      "name": "Connect",
-      "date": "14 de julio",
-      "location": "La Nave - el centro de innovación de Villaverde - Madrid",
-      "title": "Madrid acoge el evento más grande en España para programadores",
-      "description": "La III edición de Connect se celebrará el 14 de julio y en ella participarán más de 600 desarrolladores de toda España y teconocidos programadores internacionales, procedentes de Silicon Valley."
+      "name": "Connect ",
+      "image": "https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png",
+      "date": "14 de julio. ",
+      "location": "La Nave - Centro de Innovación de Villaverde - Madrid. ",
+      "title": "Madrid acoge el evento más grande en España para programadores. ",
+      "description": "La III edición de Connect se celebrará el 14 de julio y en ella participarán más de 600 desarrolladores de toda España y teconocidos programadores internacionales, procedentes de Silicon Valley. "
     },
     {
       "id": "2",
       "name": "Codemotion",
+      
       "date": "9-10 de Mayo",
       "location": "Kinépolis, Madrid",
       "title": "La conferencia más importante del mundo tech en Europa. 2 días de charlas divididas en 7 tracks.",
-      "description": "2 días de charlas divididas en 7 tracks. Explora temáticas como Back-end, DevOps, Front-end, AI/ML, Soft Skills, y más! La Conferencia Codemotion es el mejor sitio para descubrir tendencias y experiencias en el mundo de la tecnología."
+      "description": "2 días de charlas divididas en 7 tracks. Explora temáticas como Back-end, DevOps, Front-end, AI/ML, Soft Skills, y más! La Conferencia Codemotion es el mejor sitio para descubrir tendencias y experiencias en el mundo de la tecnología. "
     },
     {
       "id": "3",
       "name": "CSSCamp Barcelona",
-      "date": "13 de Julio en el Palau de Congressos de Barcelona",
+      "image": "https://www.ondho.com/wp-content/uploads/2019/07/css-camp.jpg",
+      "date": "13 de Julio",
+      "location":"Palau de Congressos de Barcelona",
       "title": "Una conferencia pensada para diseñadores y desarrolladores web.",
       "description": "Evento donde diseñadores y desarrolladores se dan cita para hablar sobre cómo hacer una web mejor, más rápida, segura y accesible, con una excelente experiencia de usuario."
     },

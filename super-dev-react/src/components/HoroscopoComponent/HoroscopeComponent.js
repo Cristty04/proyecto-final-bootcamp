@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getEvents } from '../../store/events/action';
+import { getEvents } from '../../store/Horoscope/action';
 import { Card, Container } from 'react-bootstrap';
 import { Bars } from 'react-loader-spinner';
 
 
-const EventsComponent = () => {
+const HoroscopeComponent = () => {
 
   const dispatch = useDispatch();
-  const { events, loadingEvents } = useSelector((state) => state.EventsReducer);
+  const { events, loadingHoroscope } = useSelector((state) => state.HoroscopeReducer);
 
     useEffect(()=>{
-      dispatch(getEvents())
+      dispatch(getHoroscope())
     },[])
 
-    if(loadingEvents){
+    if(loadingHoroscope){
       return(
         <Container>
         <Bars>
@@ -25,29 +25,27 @@ const EventsComponent = () => {
   
     return(
       <Container>
-        {events.map(event=>{
+        {horoscopo.map(event=>{
           return(
             <Card>
             
               <Card.Title m-5>
-                {event.name}
+                {horoscopo.name}
               </Card.Title>
               <Card.Body> 
               <Card.Img>
-              {event.image}
+              {event.sign}
              </Card.Img>        
                 <Card.Text>
-                {event.date}
+                {horoscopo.date}
                 </Card.Text>
                 <Card.Text>
-                {event.location}
+                {horoscopo.prediction}
                 </Card.Text>
                 <Card.Text>
-                {event.title}
+                {horoscopo.lovers}
                 </Card.Text>
-                <Card.Text>
-                {event.description}
-                </Card.Text>
+            
               </Card.Body>
             </Card>
           )
@@ -55,10 +53,8 @@ const EventsComponent = () => {
       </Container>
     )
 };
-
-
 EventsComponent.propTypes = {};
 
 EventsComponent.defaultProps = {};
 
-export default EventsComponent;
+export default HoroscopeComponent
