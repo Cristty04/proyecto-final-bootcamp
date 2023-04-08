@@ -147,6 +147,26 @@
       "lovers": "Los Piscis son sensibles y románticos en el amor, pero pueden ser un poco soñadores. Para tener una relación exitosa, deben aprender a establecer límites saludables y a comunicarse de manera clara y efectiva con su pareja."
     }
   ],
-  "users": []
+  "users": [
+    {
+      "user": "Mairam",
+      "password": "1234",
+      "email": "mairam@gmail.com",
+      "firtName": "Mairam",
+      "secondName": "xxxx",
+      "gender": "female"
+      
+
+    },
+    {
+      "user": "Cris",
+      "password":"1234",
+      "email": "crism@gmail.com",
+      "firtName": "Cris",
+      "secondName": "Berdullas",
+      "gender": "female"
+
+    }
+  ]
 }
 
