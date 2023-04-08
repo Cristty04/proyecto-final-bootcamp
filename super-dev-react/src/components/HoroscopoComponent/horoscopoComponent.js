@@ -1,8 +1,7 @@
-import React, { useEffect} from 'react';
-import PropTypes from 'prop-types';
-import styles from './horoscopoComponent.module.css';
+import React, { useEffect } from 'react';
+// import PropTypes from 'prop-types';
+// import styles from './HoroscopoComponent.module.css';
 import { useDispatch, useSelector } from 'react-redux'
-
 import { getHoroscopos } from '../../store/horoscopo/action'
 import { Container, Card } from 'react-bootstrap'
 import { Bars } from 'react-loader-spinner'
@@ -10,13 +9,13 @@ import { Bars } from 'react-loader-spinner'
 
 const HoroscopoComponent = () => {
   const dispatch = useDispatch()
-  const { horoscopos, loadingHorosocopos } = useSelector((state) => state.HorosocopoReducer);
+  const { horoscopos,loadingHorosocopos} = useSelector((state) => state.HorosocopoReducer);
 
-    useEffect(() => {
+    useEffect(()=> {
     dispatch(getHoroscopos());
-  }, [])
+  },[])
 
-  if (loadingHorosocopos) {
+  if (loadingHorosocopos){
     return (
       <Container>
         <Bars
@@ -39,7 +38,7 @@ const HoroscopoComponent = () => {
               {horoscopo.lovers}
             </Card.Body>
           </Card>
-        );
+        )
       })}
     </Container>
   )
@@ -47,15 +46,8 @@ const HoroscopoComponent = () => {
 
 
 
+//  HoroscopoComponent.propTypes = {};
 
-
-
-
-
-
-
-HoroscopoComponent.propTypes = {};
-
-HoroscopoComponent.defaultProps = {};
+//  HoroscopoComponent.defaultProps = {};
 
 export default HoroscopoComponent;
