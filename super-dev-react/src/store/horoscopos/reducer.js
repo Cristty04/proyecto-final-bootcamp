@@ -12,7 +12,7 @@ const initialState ={
     }
 }
 
-export default function HoroscopoReducer(state=initialState, action){
+export default function HoroscoposReducer(state = initialState, action){
     switch(action.type) {
         case GET_HOROSCOPOS:
             state= {...state,loadingHoroscopos:true}
@@ -23,7 +23,7 @@ export default function HoroscopoReducer(state=initialState, action){
             break
 
         case GET_HOROSCOPOS_FAIL:
-            state = {...state, loadingPost: false, posts:[], error: {message:action.payload}}
+            state = {...state, loadingHoroscopos: false, horoscopos:[], error: {message:action.payload}}
             break
         default:
             break

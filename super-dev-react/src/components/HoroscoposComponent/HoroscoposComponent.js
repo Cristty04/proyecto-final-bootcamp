@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
-// import PropTypes from 'prop-types';
-// import styles from './HoroscopoComponent.module.css';
+ import PropTypes from 'prop-types';
+ import styles from './HoroscoposComponent.module.css';
 import { useDispatch, useSelector } from 'react-redux'
-import { getHoroscopos } from '../../store/horoscopo/action'
+import { getHoroscopos } from '../../store/horoscopos/action'
 import { Container, Card } from 'react-bootstrap'
 import { Bars } from 'react-loader-spinner'
 
 
-const HoroscopoComponent = () => {
+const HoroscoposComponent = () => {
   const dispatch = useDispatch()
-  const { horoscopos,loadingHorosocopos} = useSelector((state) => state.HorosocopoReducer);
+  const {horoscopos, loadingHorosocopos} = useSelector((state) => state.HorosocoposReducer);
 
     useEffect(()=> {
     dispatch(getHoroscopos());
@@ -46,8 +46,8 @@ const HoroscopoComponent = () => {
 
 
 
-//  HoroscopoComponent.propTypes = {};
+//   HoroscoposComponent.propTypes = {};
 
-//  HoroscopoComponent.defaultProps = {};
+//  HoroscoposComponent.defaultProps = {};
 
-export default HoroscopoComponent;
+export default HoroscoposComponent;

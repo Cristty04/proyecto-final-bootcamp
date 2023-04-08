@@ -1,7 +1,7 @@
 import React from 'react';
 import MusicPage from '../MusicPage/MusicPage';
 import EventPage from '../EventsPage/EventPage';
-import HoroscopoPage from '../HoroscopoPage/HoroscopoPage';
+// import HoroscoposPage from '../HoroscoposPage/HoroscoposPage';
 import ArticlePage from '../ArticlePage/ArticlePage';
 // import CarouselComponent from '../../components/CarouselComponent/CarouselComponent';
 
@@ -13,7 +13,7 @@ export default function HomePage(){
     <table>
       <MusicPage/>
       <EventPage/>
-      <HoroscopoPage/>
+      {/* <HoroscoposPage/> */}
       <ArticlePage/>
     </table>
       

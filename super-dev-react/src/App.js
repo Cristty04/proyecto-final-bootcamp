@@ -9,7 +9,7 @@ import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
-import HoroscopoPage from './pages/HoroscopoPage/HoroscopoPage';
+import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/articles" element={<ArticlePage/>}></Route>
         <Route exact path="/events" element={<EventPage/>}></Route>
         <Route exact path="/music" element={<MusicPage/>}></Route>
-        <Route exact path="/horoscopo" element={<HoroscopoPage/>}></Route>
+        <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
         <Route exact path="/login" element={<LoginPage/>}></Route>
       </Routes>
