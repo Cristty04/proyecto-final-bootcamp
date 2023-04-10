@@ -29,13 +29,11 @@ const EventsComponent = () => {
           return(
             <Card>
             
-              <Card.Title m-5>
+              <Card.Title className='m-3'>
                 {event.name}
               </Card.Title>
-              <Card.Body> 
-              <Card.Img>
-              {event.image}
-             </Card.Img>        
+              <Card.Body>  
+              <img src={event.image} alt="" />                 
                 <Card.Text>
                 {event.date}
                 </Card.Text>

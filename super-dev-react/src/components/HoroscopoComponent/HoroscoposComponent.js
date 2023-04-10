@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getEvents } from '../../store/Horoscope/action';
+import { getHoroscopos } from '../../store/horoscopos/action';
 import { Card, Container } from 'react-bootstrap';
 import { Bars } from 'react-loader-spinner';
 
 
-const HoroscopeComponent = () => {
+const HoroscoposComponent = () => {
 
   const dispatch = useDispatch();
-  const { events, loadingHoroscope } = useSelector((state) => state.HoroscopeReducer);
+  const { horoscopos, loadingHoroscopos } = useSelector((state) => state.HoroscoposReducer);
 
     useEffect(()=>{
-      dispatch(getHoroscope())
+      dispatch(getHoroscopos())
     },[])
 
-    if(loadingHoroscope){
+    if(loadingHoroscopos){
       return(
         <Container>
         <Bars>
@@ -25,7 +25,8 @@ const HoroscopeComponent = () => {
   
     return(
       <Container>
-        {horoscopo.map(event=>{
+        {console.log(horoscopos)}
+        {horoscopos.map(horoscopo=>{
           return(
             <Card>
             
@@ -33,9 +34,9 @@ const HoroscopeComponent = () => {
                 {horoscopo.name}
               </Card.Title>
               <Card.Body> 
-              <Card.Img>
-              {event.sign}
-             </Card.Img>        
+             
+              {horoscopo.sign}
+                   
                 <Card.Text>
                 {horoscopo.date}
                 </Card.Text>
@@ -53,8 +54,6 @@ const HoroscopeComponent = () => {
       </Container>
     )
 };
-EventsComponent.propTypes = {};
 
-EventsComponent.defaultProps = {};
 
-export default HoroscopeComponent
+export default HoroscoposComponent

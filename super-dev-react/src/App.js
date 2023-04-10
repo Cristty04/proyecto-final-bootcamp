@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage/HomePage';
 import ShopPage from './pages/ShopPage/ShopPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EventPage from './pages/EventsPage/EventPage';
-import HoroscopePage from './pages/HoroscopePage/HoroscopePage';
+import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
 import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/articles" element={<ArticlePage/>}></Route>
         <Route exact path="/events" element={<EventPage/>}></Route>
         <Route exact path="/music" element={<MusicPage/>}></Route>
-        <Route exact path="/horoscope" element={<HoroscopePage/>}></Route>
+        <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
         <Route exact path="/login" element={<LoginPage/>}></Route>
         <Route exact path="/profile" element={user && user.id?<ProfilePage/>: <Navigate to="/login" replace></Navigate>}></Route>                

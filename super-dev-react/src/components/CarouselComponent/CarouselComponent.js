@@ -13,13 +13,13 @@ const CarouselComponent = () =>{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <iframe className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5EgHMRAr7SBqmK6HSX8dRP" alt="First slide" />
+            <img className="d-block w-100" src="https://static.comunicae.com/photos/notas/1197128/1530787521_Connect_2018.jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <iframe className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5j8Si4303MCM3wMqXScMF4" alt="Second slide" />
+            <img className="d-block w-100" src="https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5PqMbsx7V1y1YfjZfTlDku" alt="Third slide" />
+            <img className="d-block w-100" src="https://www.ondho.com/wp-content/uploads/2019/07/css-camp.jpg" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
