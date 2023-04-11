@@ -23,7 +23,7 @@ export default function HoroscoposReducer(state = initalState, action){
             break
 
         case GET_HOROSCOPOS_FAIL:
-            state = {...state, loadingHosocopos: false, horoscopos:[], error: {message:action.payload}}
+            state = {...state, loadingHorocopos: false, horoscopos:[], error: {message:action.payload}}
             break
 
         default:

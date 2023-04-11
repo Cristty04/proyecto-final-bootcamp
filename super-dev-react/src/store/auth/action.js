@@ -57,7 +57,7 @@ export function doLogin(userData){
             console.log(userData)
             // get para recibir
             // post para enviar
-            const response = await axios.post("http://localhost:3000/users", userData)
+            const response = await axios.post("http://localhost:3000/login", userData)
             dispatch(actionDoLoginOk(response.data))
         } catch (error) {
             dispatch(actionDoLoginFail(error))

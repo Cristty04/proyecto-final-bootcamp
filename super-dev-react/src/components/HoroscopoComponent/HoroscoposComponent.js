@@ -1,59 +1,46 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getHoroscopos } from '../../store/horoscopos/action';
-import { Card, Container } from 'react-bootstrap';
-import { Bars } from 'react-loader-spinner';
-
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getHoroscopos } from "../../store/horoscopos/action";
+import { Card, Container } from "react-bootstrap";
+import { Bars } from "react-loader-spinner";
 
 const HoroscoposComponent = () => {
-
   const dispatch = useDispatch();
-  const { horoscopos, loadingHoroscopos } = useSelector((state) => state.HoroscoposReducer);
+  const { horoscopos, loadingHoroscopos } = useSelector(
+    (state) => state.HoroscoposReducer
+  );
 
-    useEffect(()=>{
-      dispatch(getHoroscopos())
-    },[])
+  useEffect(() => {
+    dispatch(getHoroscopos());
+  }, []);
 
-    if(loadingHoroscopos){
-      return(
-        <Container>
-        <Bars>
-        </Bars>
-        </Container>
-      )
-    }
-  
+  if(loadingHoroscopos) {
     return(
       <Container>
-        {console.log(horoscopos)}
-        {horoscopos.map(horoscopo=>{
-          return(
-            <Card>
-            
-              <Card.Title m-5>
-                {horoscopo.name}
-              </Card.Title>
-              <Card.Body> 
-             
-              {horoscopo.sign}
-                   
-                <Card.Text>
-                {horoscopo.date}
-                </Card.Text>
-                <Card.Text>
-                {horoscopo.prediction}
-                </Card.Text>
-                <Card.Text>
-                {horoscopo.lovers}
-                </Card.Text>
-            
-              </Card.Body>
-            </Card>
-          )
-        })}
+        <Bars 
+        height={100}
+        width={100}>
+        </Bars>
       </Container>
     )
+  }
+
+  return (
+    <Container>
+      {horoscopos.map(horoscopo=>{
+        return(
+          <Card className='px-4 py-2 mb-3'>
+            <Card.Title >{horoscopo.name}</Card.Title>
+            <Card.Body>
+          
+             {horoscopo.description}
+            
+            </Card.Body>
+          </Card>
+        )
+      })}
+    </Container>
+  )
 };
 
-
-export default HoroscoposComponent
+export default HoroscoposComponent;

@@ -11,7 +11,13 @@ export function actionGetHoroscopos(){
     }
 }
 
-export function actionGetHososcoposFail(error){
+export function actionGetHoroscoposOk(horoscopos){
+    return{
+        type: GET_HOROSCOPOS_OK,
+        payload: horoscopos 
+    }
+}
+export function actionGetHoroscoposFail(error){
     return{
         type: GET_HOROSCOPOS_FAIL,
         payload: error,
@@ -25,7 +31,7 @@ export function getHoroscopos(){
             const response = await axios.get("http://localhost:3000/horoscopos")
             dispatch(actionGetHoroscopos(response.data))
         } catch(error){
-            dispatch(actionGetHososcoposFail(error))
+            dispatch(actionGetHoroscopos(error))
         }
     }
 };

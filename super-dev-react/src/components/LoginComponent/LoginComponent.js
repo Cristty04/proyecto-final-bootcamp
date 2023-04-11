@@ -9,14 +9,14 @@ import { Navigate } from 'react-router-dom';
 const LoginComponent = () => {
 
   const {user} = useSelector((state)=> state.AuthReducer)
-  const [username, setUsername] = useState("") //poner usuaria
+  const [email, setEmail] = useState("") //poner usuaria
   const [password, setPassword] = useState("") //poner contraseña
 
   const dispatch = useDispatch()
 
   function tryLogin() {
     // es importante mantener las keys del objeto que nos pida la API
-    dispatch(doLogin({ username: username, password: password }))
+    dispatch(doLogin({ email: email, password: password }))
   }
 
 
@@ -29,8 +29,8 @@ const LoginComponent = () => {
   return (<Container>
     <Form>
       <FormGroup>
-        <FormLabel>Username</FormLabel>
-        <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="email" type="email"></input>
+        <FormLabel>Email</FormLabel>
+        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" type="email"></input>
       </FormGroup>
       <FormGroup>
         <FormLabel>Password</FormLabel>

@@ -10,7 +10,7 @@ export default function HomePage(){
   return(
     <CarouselComponent>
       <h1> Home Page</h1>
-     
+      {user && user.id? <h2>Bienvenid@ {user.firstName}</h2>: 'No estás loggeado'} 
 
       
     </CarouselComponent>

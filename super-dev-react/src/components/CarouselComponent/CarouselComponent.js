@@ -1,38 +1,46 @@
-import React from 'react'
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
-
-const CarouselComponent = () =>{
+const CarouselComponent = () => {
   return (
     <div>
-
-      <div id="carousel" className="carousel slide" data-ride="carousel">
-        <ol className="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+      <div
+        id="carouselExampleControls"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src="https://static.comunicae.com/photos/notas/1197128/1530787521_Connect_2018.jpg" alt="First slide" />
+            <img src="https://static.comunicae.com/photos/notas/1197128/1530787521_Connect_2018.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png" alt="Second slide" />
+            <img src="https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://www.ondho.com/wp-content/uploads/2019/07/css-camp.jpg" alt="Third slide" />
+            <img src="https://csscamp.tech/images/seo/csscamp_card_2021.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
-        <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span className="visually-hidden">Anterior</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
+          <span className="visually-hidden">Siguiente</span>
+        </button>
       </div>
     </div>
   );
-}
+};
 
-export default CarouselComponent
+export default CarouselComponent;
