@@ -29,7 +29,7 @@ export function getHoroscopos(){
         dispatch(actionGetHoroscopos())
         try{
             const response = await axios.get("http://localhost:3000/horoscopos")
-            dispatch(actionGetHoroscopos(response.data))
+            dispatch(actionGetHoroscoposOk(response.data))
         } catch(error){
             dispatch(actionGetHoroscopos(error))
         }

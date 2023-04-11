@@ -25,7 +25,6 @@ const NavigationComponent = () => {
           </Navbar.Brand>
         <Nav>
           <Link className="nav-link" to='/'> Home </Link>
-          <Link className="nav-link" to='/shop'> Shop </Link>
           <Link className="nav-link" to='/articles'> Articles </Link>
           <Link className="nav-link" to='/events'> Events </Link>
           <Link className="nav-link" to='/music'> Music </Link>

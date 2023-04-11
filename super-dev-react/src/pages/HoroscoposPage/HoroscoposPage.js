@@ -5,7 +5,7 @@ import HoroscoposComponent from '../../components/HoroscopoComponent/HoroscoposC
 export default function HoroscoposPage(){
   return(
     <Container>
-      <h1> Horoscopos Page Funcionó </h1>
+      <h1 className='mt-5 mb-5 ms-2'> HOROSCOPO SEMANAL </h1>
       <HoroscoposComponent></HoroscoposComponent>
     </Container>
   )

@@ -3,7 +3,6 @@ import NavigationComponent from './components/NavigationComponent/NavigationComp
 import './App.css';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import ShopPage from './pages/ShopPage/ShopPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EventPage from './pages/EventsPage/EventPage';
 import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
@@ -23,7 +22,6 @@ function App() {
       <div>
       <Routes>
         <Route exact path="/" element={<HomePage/>}></Route>
-        <Route exact path="/shop" element={<ShopPage/>}></Route>
         <Route exact path="/articles" element={<ArticlePage/>}></Route>
         <Route exact path="/events" element={<EventPage/>}></Route>
         <Route exact path="/music" element={<MusicPage/>}></Route>
