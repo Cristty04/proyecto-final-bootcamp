@@ -2,7 +2,7 @@ import NavigationComponent from './components/NavigationComponent/NavigationComp
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import ShopPage from './pages/ShopPage/ShopPage';
+import ForoPage from './pages/ForoPage/ForoPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EventPage from './pages/EventsPage/EventPage';
 import HoroscopePage from './pages/HoroscopePage/HoroscopePage';
@@ -17,7 +17,7 @@ function App() {
       <div>
       <Routes>
         <Route exact path="/" element={<HomePage/>}></Route>
-        <Route exact path="/shop" element={<ShopPage/>}></Route>
+        <Route exact path="/foro" element={<ForoPage/>}></Route>
         <Route exact path="/articles" element={<ArticlePage/>}></Route>
         <Route exact path="/events" element={<EventPage/>}></Route>
         <Route exact path="/music" element={<MusicPage/>}></Route>
