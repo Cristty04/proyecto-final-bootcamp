@@ -1,68 +1,74 @@
-
-
-  {
-    "events": [
+{
+  "events": [
     {
       "id": "1",
-      "name": "Connect",
-      "date": "14 de julio",
-      "location": "La Nave - el centro de innovación de Villaverde - Madrid",
-      "title": "Madrid acoge el evento más grande en España para programadores",
-      "description": "La III edición de Connect se celebrará el 14 de julio y en ella participarán más de 600 desarrolladores de toda España y teconocidos programadores internacionales, procedentes de Silicon Valley."
+      "name": "CONNECT ",
+      "image": "https://static.comunicae.com/photos/notas/1197128/1530787521_Connect_2018.jpg",
+      "date": "14 de julio. ",
+      "location": "La Nave - Centro de Innovación de Villaverde - Madrid. ",
+      "title": "Madrid acoge el evento más grande en España para programadores. ",
+      "description": "La III edición de Connect se celebrará el 14 de julio y en ella participarán más de 600 desarrolladores de toda España y teconocidos programadores internacionales, procedentes de Silicon Valley. "
     },
     {
       "id": "2",
-      "name": "Codemotion",
+      "name": "CODEMOTION",
+      "image": "https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png",
       "date": "9-10 de Mayo",
       "location": "Kinépolis, Madrid",
       "title": "La conferencia más importante del mundo tech en Europa. 2 días de charlas divididas en 7 tracks.",
-      "description": "2 días de charlas divididas en 7 tracks. Explora temáticas como Back-end, DevOps, Front-end, AI/ML, Soft Skills, y más! La Conferencia Codemotion es el mejor sitio para descubrir tendencias y experiencias en el mundo de la tecnología."
+      "description": "2 días de charlas divididas en 7 tracks. Explora temáticas como Back-end, DevOps, Front-end, AI/ML, Soft Skills, y más! La Conferencia Codemotion es el mejor sitio para descubrir tendencias y experiencias en el mundo de la tecnología. "
     },
     {
       "id": "3",
-      "name": "CSSCamp Barcelona",
-      "date": "13 de Julio en el Palau de Congressos de Barcelona",
+      "name": "CSSCAMP BARCELONA",
+      "image": "https://csscamp.tech/images/seo/csscamp_card_2021.jpg",
+      "date": "13 de Julio",
+      "location": "Palau de Congressos de Barcelona",
       "title": "Una conferencia pensada para diseñadores y desarrolladores web.",
       "description": "Evento donde diseñadores y desarrolladores se dan cita para hablar sobre cómo hacer una web mejor, más rápida, segura y accesible, con una excelente experiencia de usuario."
     },
-
     {
       "id": "4",
-      "name": "JSCamp Barcelona",
-      "date": "14 y 15 de Julio en el Palau de Congresos de Barcelona",
+      "name": "JSCAMP BARCELONA",
+      "image":"https://jscamp.tech/images/seo/jscamp_card_2021.jpg",
+      "date": "14 y 15 de Julio",
+      "location": "Palau de Congressos de Barcelona",
       "title": "JSCamp, una cita, ya ineludible, para los desarrolladores que trabajan con tecnologías Javascript.",
       "description": "Esta cita anual congrega a decenas de desarrolladores que desean conocer nuevas técnicas, herramientas y tendencias JavaScript. El evento siempre se enfoca con el objetivo de ser una inspiración a las actuales y futuras generaciones de desarrolladores."
     },
     {
       "id": "5",
-      "name": "Orientación al mundo de la programación",
-      "date": "30 de Junio en la Academia Upgrade-hub en Madrid y online",
+      "name": "ORIENTACIÓN AL MUNDO DE LA PROGRAMACIÓN",
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2023/03/07/640700aeef20b.r_d.4264-2843-1407.jpeg",
+      "date": "30 de Junio",
+      "location": "Academia Upgrade Calle Orense 69-Madrid y online",
       "title": "¿Quieres cambiar tu futuro profesional? ¿Te gustan la tecnologías? Apuntate y te lo contamos todo",
       "description": "Jonada de puertas abiertas donde te explicamos que te ofrece cada bootcamp. Queremos cambiarte la vida a nivel profesional.La demanda de programadores se multiplica cada año, y no hay suficientes profesionales para cubrir estas vacantes. Todas las semanas aparecen empresas que nos solicitan estos perfiles. Aprender ahora programación permitirá que te adelantes a los demás y te conviertas en uno de los perfiles más buscados por las empresas. No tendrás que buscar tú a las empresas. Te buscarán ellas a ti. "
     },
     {
       "id": "6",
-      "name": "Conferencias Developers",
-      "date": "01 y 02 de Julio en Fibes: Palacio de Congresos y Exposiciones de Sevilla",
+      "name": "CONFERENCIA DEVELOPER",
+      "image":"https://sg.com.mx/sites/default/files/inline-images/07.jpg",
+      "date": "01 y 02 de Julio",
+      "location": "Palacio de Congresos y Exposiciones de Sevilla",
       "title": "Una Conferencia donde podrás escuchar las ultimas novedades en programación y escuchar a los programadores más top del momento",
       "description": "Primera cita en Sevilla de un evento de estas características, no te lo puedes perder, hablaremos de las ultimas novedades de programación para estár actualizado en el mundo developer, escucharemos consejos y veremos talleres que impartiran los mejores programadores del momento. ¿Quieres estar al día? Te esperamos "
     }
   ],
-  
-  "horoscopo": [
+  "horoscopos": [
     {
       "id": "1",
       "name": "Aries",
       "date": "21 de marzo al 19 de abril",
-      "sign": "icon-aries.png",
-      "prediction": "Prepárate para algunos errores de código esta semana, Aries. Pero no te preocupes, ¡incluso los programadores más experimentados cometen errores de vez en cuando! Sólo asegúrate de probar tu código con frecuencia y tendrás éxito.",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-aries.png",
+      "description": "Prepárate para algunos errores de código esta semana, Aries. Pero no te preocupes, ¡incluso los programadores más experimentados cometen errores de vez en cuando! Sólo asegúrate de probar tu código con frecuencia y tendrás éxito.",
       "lovers": "Los Aries son conocidos por ser apasionados y enérgicos en el amor, pero también pueden ser impacientes. Para encontrar una relación satisfactoria, deben aprender a ser pacientes y a comprometerse cuando sea necesario."
     },
     {
       "id": "2",
       "name": "Tauro",
       "date": "20 de abril al 20 de mayo",
-      "sign": "icon-tauro.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-tauro.png",
       "description": "Tauro, prepárate para un gran proyecto esta semana. Tu trabajo será alabar y hacer un gran esfuerzo para que tu código sea más eficiente y efectivo que nunca. Los astros te están animando a poner a prueba tu creatividad y habilidades técnicas.",
       "lovers": "Los Tauro son leales y sensuales en el amor, pero a veces pueden ser tercos. Para tener una relación exitosa, deben aprender a comunicarse abiertamente con su pareja y estar dispuestos a ceder en algunas situaciones."
     },
@@ -70,7 +76,7 @@
       "id": "3",
       "name": "Geminis",
       "date": "21 de mayo al 20 de junio",
-      "sign": "ico-geminis.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-geminis.png",
       "description": "Géminis, esta semana es un buen momento para expandir tus habilidades de programación. Prueba un nuevo lenguaje de programación o aprende una nueva técnica. ¡Nunca se sabe lo que puedes descubrir y cómo puede ayudarte en tu trabajo!",
       "lovers": "Los Géminis son curiosos y versátiles en el amor, pero pueden ser inconsistentes y distraídos. Para mantener una relación sana, deben aprender a mantener su atención en su pareja y demostrar su compromiso con acciones concretas."
     },
@@ -78,7 +84,7 @@
       "id": "4",
       "name": "Cancer",
       "date": "21 de junio al 20 de julio",
-      "sign": "ico-cancer.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-cancer.png",
       "description": "Cáncer, cuidado con los bugs esta semana! Tu código puede ser tan difícil de detectar como un cangrejo escurridizo. Pero no te desesperes, hay una solución a todo. ¡Sigue trabajando duro y lo encontrarás!",
       "lovers": " Los Cáncer son cariñosos y emocionales en el amor, pero pueden ser inseguros. Para tener una relación sana, deben aprender a confiar en sí mismos y en su pareja, y a no dejarse llevar por sus inseguridades."
     },
@@ -86,7 +92,7 @@
       "id": "5",
       "name": "Leo",
       "date": "21 de julio al 22 de agosto",
-      "sign": "ico-leo.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-leo.png",
       "description": "Leo, esta semana es un buen momento para liderar un proyecto. Toma las riendas y lidera el camino. Los astros te apoyan en tu camino hacia el éxito.",
       "lovers": "Los Leo son generosos y apasionados en el amor, pero pueden ser un poco egoístas. Para mantener una relación equilibrada, deben aprender a escuchar a su pareja y a ser considerados con sus necesidades y deseos."
     },
@@ -94,7 +100,7 @@
       "id": "6",
       "name": "Virgo",
       "date": " 23 de agosto al 22 de septiembre",
-      "sign": "icon-virgo.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-virgo.png",
       "description": " Esta semana, Virgo, dedica tiempo a la documentación de tu código. Es importante que otros programadores puedan entender lo que has creado y cómo funciona. Recuerda, el trabajo en equipo hace que el sueño funcione.",
       "lovers": "Los Virgo son detallistas y serviciales en el amor, pero pueden ser críticos y exigentes. Para tener una relación satisfactoria, deben aprender a apreciar a su pareja y a no ser demasiado duros consigo mismos o con los demás."
     },
@@ -102,15 +108,15 @@
       "id": "7",
       "name": "Libra",
       "date": " 23 de septiembre al 22 de octubre",
-      "sign": "icon-libra.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-libra.png",
       "description": " Esta semana es una buena oportunidad para trabajar en la calidad de tu código, Libra. Asegúrate de que todo está en su lugar antes de enviarlo. Los astros dicen que un buen código es como un buen vino: sólo mejora con el tiempo.",
       "lovers": "Los Libra son elegantes y románticos en el amor, pero pueden ser indecisos. Para tomar decisiones importantes en una relación, deben aprender a confiar en su intuición y a tomar riesgos cuando sea necesario."
-    }, 
+    },
     {
       "id": "8",
       "name": "Escorpio",
       "date": " 23 de octubre al 21 de noviembre",
-      "sign": "icon-libra.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-escorpio.png",
       "description": "Escorpio, esta semana es un buen momento para ser creativo. Piensa fuera de la caja y haz algo único y divertido con tu código. No temas tomar riesgos y experimentar con nuevas ideas. ¡Puede ser la clave para el éxito!",
       "lovers": "Los Escorpio son intensos y apasionados en el amor, pero pueden ser celosos y posesivos. Para tener una relación sana, deben aprender a confiar en su pareja y a comunicarse abiertamente sobre sus sentimientos y preocupaciones."
     },
@@ -118,7 +124,7 @@
       "id": "9",
       "name": "Sagitario",
       "date": " 22 de noviembre al 21 de diciembre",
-      "sign": "icon-sagitario.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-sagitario.png",
       "description": "Sagitario, esta semana es un buen momento para investigar nuevas herramientas y tecnologías de programación. Investiga y encuentra algo que pueda ayudarte a hacer tu trabajo más eficiente y efectivo. Los astros te aseguran que será una buena inversión de tiempo.",
       "lovers": " Los Sagitario son aventureros y divertidos en el amor, pero pueden ser un poco descuidados. Para mantener una relación saludable, deben aprender a comprometerse y a dedicar tiempo y energía a su pareja."
     },
@@ -126,7 +132,7 @@
       "id": "10",
       "name": "Capricornio",
       "date": " 22 de diciembre al 19 de enero",
-      "sign": "icon-capricornio.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-capricornio.png",
       "description": "Esta semana, Capricornio, es importante tomar un descanso de la programación. Pasa tiempo con amigos y familiares, relájate y recarga tus baterías. ¡Una mente fresca siempre produce los mejores resultados!",
       "lovers": "Los Capricornio son leales y comprometidos en el amor, pero pueden ser un poco reservados. Para tener una relación feliz, deben aprender a ser más abiertos y expresivos con sus sentimientos y a disfrutar de la compañía de su pareja."
     },
@@ -134,7 +140,7 @@
       "id": "11",
       "name": "Acuario",
       "date": " 20 de enero al 18 de febrero",
-      "sign": "icon-acuario.png",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-acuario.png",
       "description": "Acuario, esta semana es un buen momento para centrarte en la calidad del diseño de tu código. Asegúrate de que el código no sólo funciona bien, sino que también es fácil de leer y entender. La belleza de tu código te llevará lejos.",
       "lovers": "Los Acuario son innovadores y liberales en el amor, pero pueden ser un poco distantes. Para mantener una relación fuerte, deben aprender a conectar emocionalmente con su pareja y a mostrar su afecto de manera tangible."
     },
@@ -142,11 +148,21 @@
       "id": "12",
       "name": "Piscis",
       "date": " 19 de febrero al 21 de marzo",
-      "sign": "icon-piscis.png",
-      "description":"A veces necesitas desconctar. Este mes es la excusa perfecta. Dedica tiempo para ti, tu mente y tu cuerpo te lo agradecerá.",
+      "sign": "https://rsc.lavanguardia.com/img/horoscopo/ico-piscis.png",
+      "description": "A veces necesitas desconctar. Este mes es la excusa perfecta. Dedica tiempo para ti, tu mente y tu cuerpo te lo agradecerá.",
       "lovers": "Los Piscis son sensibles y románticos en el amor, pero pueden ser un poco soñadores. Para tener una relación exitosa, deben aprender a establecer límites saludables y a comunicarse de manera clara y efectiva con su pareja."
     }
   ],
-  "users": []
+  "users": [
+    {
+      "email": "cris@gmail.com",
+      "password": "$2a$10$8COZezCcNWgey0a81qA.5.2ejwBScQNXmjwnxjeCZhuSe/9fqsahC",
+      "id": 1
+    },
+    {
+      "email": "mai@gmail.com",
+      "password": "$2a$10$aszXXOn/TKVEMkJTWQQeqeisNUQB2wstEwUC2lLck37VGYm4xFlYS",
+      "id": 2
+    }
+  ]
 }
-
