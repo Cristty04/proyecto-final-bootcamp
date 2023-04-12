@@ -31,7 +31,7 @@ export default function AuthReducer(state = initialState, action) {
             break
 
         case DO_LOGIN_OK:
-            state = {... state, loadingLogin: false, user: action.payload}
+            state = {... state, loadingLogin: false, user: action.payload.user}
             break
 
         case DO_LOGIN_FAIL:
