@@ -26,7 +26,7 @@ const MultiArticlesComponent = () => {
      }
      
     return( 
-        <Container>
+        <Container striped>
         {posts.map(post=>{
             return(
                 <Card className='px-4 py-2 mb-3'>

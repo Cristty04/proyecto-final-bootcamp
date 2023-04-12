@@ -4,7 +4,7 @@ import React from 'react'
 const CarouselComponent = () =>{
   return (
     <div>
-
+{/* 
       <div id="carousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -30,8 +30,8 @@ const CarouselComponent = () =>{
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="sr-only">Next</span>
         </a>
-      </div>
-    </div>
+      </div>*/}
+    </div> 
   );
 }
 

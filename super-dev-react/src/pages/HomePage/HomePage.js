@@ -1,16 +1,22 @@
 import React from 'react';
-import CarouselComponent from '../../components/CarouselComponent/CarouselComponent';
-
+import MusicPage from '../MusicPage/MusicPage';
+import EventPage from '../EventsPage/EventPage';
+// import HoroscoposPage from '../HoroscoposPage/HoroscoposPage';
+import ArticlePage from '../ArticlePage/ArticlePage';
+// import CarouselComponent from '../../components/CarouselComponent/CarouselComponent';
 
 
 export default function HomePage(){
+
   return(
-    <CarouselComponent>
-      <h1> 
-      Home Page
-      ¡Gracias por funcionar por fin!
-      </h1>
+    <div>
+    <table>
+      <MusicPage/>
+      <EventPage/>
+      {/* <HoroscoposPage/> */}
+      <ArticlePage/>
+    </table>
       
-    </CarouselComponent>
+    </div>
   )
 };

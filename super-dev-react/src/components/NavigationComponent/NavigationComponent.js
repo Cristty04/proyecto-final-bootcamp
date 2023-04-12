@@ -20,7 +20,7 @@ const NavigationComponent = () => {
           <Link className="nav-link" to='/articles'> Articles </Link>
           <Link className="nav-link" to='/events'> Events </Link>
           <Link className="nav-link" to='/music'> Music </Link>
-          <Link className="nav-link" to='/horoscope'> Horoscope</Link>
+          <Link className="nav-link" to='/horoscopo'> Horoscopo</Link>
           <Link className="nav-link" to='/about-us'> About Us </Link>
           
           <Link className="nav-link" to='/login'> Login</Link>
