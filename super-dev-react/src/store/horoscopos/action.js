@@ -36,15 +36,5 @@ export function getHoroscopos(){
     }
 };
 
-export function getHoroscopos(){
-    return async (dispatch)=>{
-        //empizo a pedir los post
-        dispatch(actionGetHoroscopos())
-        try{
-            const response = await axios.get("http://localhost:3000/horoscopos")
-            dispatch(actionGetHoroscoposOk(response.data))
-        }catch(error){
-            dispatch(actionGetHoroscoposFail(error))
-        }
-    }
-};
+
+
