@@ -11,7 +11,7 @@ import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
-import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
+
 import ProfilePage from './pages/ProfilePage/ProfilePage';
 
 
@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
         <Route exact path="/login" element={<LoginPage/>}></Route>
-        <Route exact path="/profile" element={user && user.id?<ProfilePage/>: <Navigate to="/login" replace></Navigate>}></Route>                
+        <Route exact path="/profile" element={user && user.id?<ProfilePage/> : <Navigate to="/login" replace></Navigate>}></Route>                
 
       </Routes>
       </div>

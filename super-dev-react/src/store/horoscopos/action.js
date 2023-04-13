@@ -6,35 +6,33 @@ import {
 } from "./actionType";
 
 export function actionGetHoroscopos(){
-    return{
-        type:GET_HOROSCOPOS
-    }
+  return{
+    type: GET_HOROSCOPOS
+  }
 }
 
 export function actionGetHoroscoposOk(horoscopos){
-    return{
-        type: GET_HOROSCOPOS_OK,
-        payload: horoscopos 
-    }
+  return{
+    type: GET_HOROSCOPOS_OK,
+    payload: horoscopos,
+  }
 }
+
 export function actionGetHoroscoposFail(error){
-    return{
-        type: GET_HOROSCOPOS_FAIL,
-        payload: error,
-    }
+  return {
+    type: GET_HOROSCOPOS_FAIL,
+    payload: error,
+  }
 }
 
 export function getHoroscopos(){
-    return async(dispatch)=>{
-        dispatch(actionGetHoroscopos())
-        try{
-            const response = await axios.get("http://localhost:3000/horoscopos")
-            dispatch(actionGetHoroscoposOk(response.data))
-        } catch(error){
-            dispatch(actionGetHoroscopos(error))
-        }
+  return async (dispatch) =>{
+    dispatch(actionGetHoroscopos())
+    try {
+        const response = await axios.get("http://localhost:3000/horoscopos")
+        dispatch(actionGetHoroscoposOk(response.data))
+    } catch(error) {
+        dispatch(actionGetHoroscopos(error))
     }
+  }
 };
-
-
-
