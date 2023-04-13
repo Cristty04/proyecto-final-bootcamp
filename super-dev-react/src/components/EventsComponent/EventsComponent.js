@@ -6,7 +6,7 @@ import { Bars } from "react-loader-spinner";
 
 const EventsComponent = () => {
   const dispatch = useDispatch();
-  const { events, loadingEvents } = useSelector((state) => state.EventsReducer);
+  const {events, loadingEvents } = useSelector((state) => state.EventsReducer);
 
   useEffect(() => {
     dispatch(getEvents());
@@ -15,7 +15,9 @@ const EventsComponent = () => {
   if (loadingEvents) {
     return (
       <Container>
-        <Bars></Bars>
+        <Bars
+        height={100}
+          width={100}></Bars>
       </Container>
     );
   }
@@ -39,6 +41,8 @@ const EventsComponent = () => {
     </Container>
   );
 };
+
+
 
 EventsComponent.propTypes = {};
 

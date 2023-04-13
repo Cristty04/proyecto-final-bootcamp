@@ -4,6 +4,7 @@ import CarouselComponent from '../../components/CarouselComponent/CarouselCompon
 
 
 
+
 export default function HomePage(){
 
   const {user} = useSelector((state)=> state.AuthReducer)
