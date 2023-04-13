@@ -1,17 +1,24 @@
-import NavigationComponent from './components/NavigationComponent/NavigationComponent'
+
+import NavigationComponent from './components/NavigationComponent/NavigationComponent';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ForoPage from './pages/ForoPage/ForoPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EventPage from './pages/EventsPage/EventPage';
+import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
 import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
 import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
+import ProfilePage from './pages/ProfilePage/ProfilePage';
+
+
+
 
 function App() {
+  const {user} = ((state)=> state.AuthReducer)
   return (
     <div className="App">
       <NavigationComponent/>
@@ -25,6 +32,8 @@ function App() {
         <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
         <Route exact path="/login" element={<LoginPage/>}></Route>
+        <Route exact path="/profile" element={user && user.id?<ProfilePage/>: <Navigate to="/login" replace></Navigate>}></Route>                
+
       </Routes>
       </div>
 

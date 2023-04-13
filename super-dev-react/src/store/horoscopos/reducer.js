@@ -1,21 +1,21 @@
-import {  
-    GET_HOROSCOPOS, 
+import {
+    GET_HOROSCOPOS,
     GET_HOROSCOPOS_OK,
     GET_HOROSCOPOS_FAIL,
 } from './actionType';
 
-const initialState ={
+const initalState ={
     horoscopos:[],
-    loadingHoroscopos:false,
-    error:{
+    loadingHoroscopos:false, 
+    error: {
         message:""
     }
 }
 
-export default function HoroscoposReducer(state = initialState, action){
+export default function HoroscoposReducer(state = initalState, action){
     switch(action.type) {
         case GET_HOROSCOPOS:
-            state= {...state,loadingHoroscopos:true}
+            state = {...state, loadingHoroscopos: true}
             break
         
         case GET_HOROSCOPOS_OK:
@@ -23,10 +23,11 @@ export default function HoroscoposReducer(state = initialState, action){
             break
 
         case GET_HOROSCOPOS_FAIL:
-            state = {...state, loadingHoroscopos: false, horoscopos:[], error: {message:action.payload}}
+            state = {...state, loadingHorocopos: false, horoscopos:[], error: {message:action.payload}}
             break
+
         default:
             break
     }
     return state
-    }
+}

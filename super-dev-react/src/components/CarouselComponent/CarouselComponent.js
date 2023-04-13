@@ -1,38 +1,45 @@
-import React from 'react'
+import React from "react";
 
-
-const CarouselComponent = () =>{
+const CarouselComponent = () => {
   return (
     <div>
-{/* 
-      <div id="carousel" className="carousel slide" data-ride="carousel">
-        <ol className="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+      <div
+        id="carouselExampleControls"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <iframe className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5EgHMRAr7SBqmK6HSX8dRP" alt="First slide" />
+            <img src="https://static.comunicae.com/photos/notas/1197128/1530787521_Connect_2018.jpg" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <iframe className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5j8Si4303MCM3wMqXScMF4" alt="Second slide" />
+            <img src="https://extra.codemotion.com/app/uploads/2023/02/hero_img-1.png" className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://open.spotify.com/embed?uri=spotify:playlist:5PqMbsx7V1y1YfjZfTlDku" alt="Third slide" />
+            <img src="https://csscamp.tech/images/seo/csscamp_card_2021.jpg" className="d-block w-100" alt="..." />
           </div>
         </div>
-        <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span className="visually-hidden">Anterior</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>*/}
-    </div> 
+          <span className="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
   );
-}
+};
 
-export default CarouselComponent
+export default CarouselComponent;
