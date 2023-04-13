@@ -19,14 +19,15 @@ const LoginComponent = () => {
     dispatch(doLogin({ email: email, password: password }))
   }
 
-
+//En cuanto haya un usuario logeado llevalo al Profile.
   if(user && user.id){
     return (
       <Navigate to="/profile" replace></Navigate>
     )
   }
 
-  return (<Container>
+  return (
+  <Container>
     <Form>
       <FormGroup>
         <FormLabel>Email</FormLabel>
@@ -38,8 +39,8 @@ const LoginComponent = () => {
       </FormGroup>
       <Button onClick={tryLogin}>Login</Button>
     </Form>
-  </Container>)
-
+  </Container>
+  )
 };
 
 LoginComponent.propTypes = {};

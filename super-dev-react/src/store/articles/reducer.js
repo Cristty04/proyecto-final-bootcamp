@@ -18,7 +18,7 @@ export default function ArticlesReducer(state = initalState, action){
         case GET_POSTS:
             state = {...state, loadingPosts: true}
             break
-
+// añadir ñapa a singleArticle_OK despues de true, post{} así evitamos que se quede el anterior cargado en la store.minuto 1:10.
         case GET_POSTS_OK:
             state = {...state, loadingPosts: false, posts: action.payload}
             break

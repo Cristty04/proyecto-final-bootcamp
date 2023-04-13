@@ -3,6 +3,7 @@ import { Card, Container } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPosts } from '../../store/articles/actions';
 import { Bars } from 'react-loader-spinner';
+import {Link} from 'react-router-dom';
 
 
 const MultiArticlesComponent = () => {
@@ -31,7 +32,7 @@ const MultiArticlesComponent = () => {
             return(
                 <Card className='px-4 py-2 mb-3'>
                     <Card.Title>
-                            {post.title}
+                            <Link to={`/post/${post.id}`}> {post.title}</Link> 
                         </Card.Title>
                         <Card.Body>
                             {post.body}

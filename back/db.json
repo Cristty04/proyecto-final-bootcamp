@@ -157,12 +157,20 @@
     {
       "email": "cris@gmail.com",
       "password": "$2a$10$8COZezCcNWgey0a81qA.5.2ejwBScQNXmjwnxjeCZhuSe/9fqsahC",
-      "id": 1
+      "id": 1,
+      "firstName":"Cristina",
+      "lastName":"Iron-Man",
+      "image":"https://nombresdediosas.com/wp-content/uploads/2020/04/613dcf3e10a366729d79ebd3f36ad6e0e7f77c29v2_hq.jpg",
+      "team":"windows"
     },
     {
       "email": "mai@gmail.com",
       "password": "$2a$10$aszXXOn/TKVEMkJTWQQeqeisNUQB2wstEwUC2lLck37VGYm4xFlYS",
-      "id": 2
+      "id": 2,
+      "firstName":"Mairam",
+      "lastName":"Beaut3ch",
+      "image":"https://www.neo2.com/wp-content/uploads/2020/01/dioses-negros-moda-persefone-29.jpg",
+      "team":"mac"
     }
   ]
 }

@@ -25,7 +25,7 @@ const initialState = {
 }
 
 export default function AuthReducer(state = initialState, action) {
-    switch (action.type) {
+    switch(action.type) {
         case DO_LOGIN:
             state = {... state, loadingLogin: true}
             break
