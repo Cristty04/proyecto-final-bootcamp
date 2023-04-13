@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import ComentsFormComponent from '../../components/ComentsFormComponent/ComentsFormComponent';
+// import ComentsFormComponent from '../../components/ComentsFormComponent/ComentsFormComponent';
 
 
 export default function AboutUsPage(){
@@ -12,7 +12,7 @@ export default function AboutUsPage(){
       y más adelante irems implementando más información de Back y a partir de ahí descubriremos nuevos mundo del sector. 
       También dinos qué quieres ver, te escuchamos...
       </p>
-      <ComentsFormComponent/>
+      {/* <ComentsFormComponent/> */}
       </div>
     </Container>
   )
