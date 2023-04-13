@@ -1,4 +1,4 @@
-import { Container,Form, FormGroup, Image } from "react-bootstrap";
+import { Container, Form, FormGroup, Image } from "react-bootstrap";
 import { useSelector } from "react-redux";
 
 export default function ProfilePage(){
@@ -7,7 +7,7 @@ export default function ProfilePage(){
     return(
         <Container>
             <h1> Profile page</h1>
-
+        {console.log(user)}
             <Form>
                 <FormGroup>
                     <label>Nombre: </label>
@@ -21,7 +21,10 @@ export default function ProfilePage(){
                     <label>Email: </label>
                     {user.email}
                 </FormGroup>
-
+                <FormGroup>
+                    <label>Sitema Operativo: </label>
+                    {user.team}
+                </FormGroup>
                 <Image src={user.image}></Image>
             </Form>
 

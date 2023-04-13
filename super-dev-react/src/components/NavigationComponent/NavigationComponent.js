@@ -34,8 +34,7 @@ const NavigationComponent = () => {
           {user && user.id? "" : <Link className="nav-link" to='/login'>Login</Link>}
           {user && user.id?  <Link className="nav-link" to='/profile'>Profile</Link> : ""} 
           {user && user.id?  <Link onClick={closeSession} className="nav-link">Logout</Link> : ""}
-          
-          
+
         </Nav>
 
       </Container>
