@@ -11,7 +11,8 @@ import MusicPage from './pages/MusicPage/MusicPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
-import Formularios from './components/Formularios/Formularios';import SinglePostPage from './pages/SinglePostPage/SinglePostPage';
+import Formularios from './components/Formularios/Formularios';
+import SinglePostPage from './pages/SinglePostPage/SinglePostPage';
 import { useSelector } from 'react-redux';
 import Forms from './components/Forms/Forms';
 
