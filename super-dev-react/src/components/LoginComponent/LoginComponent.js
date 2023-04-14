@@ -19,10 +19,10 @@ const LoginComponent = () => {
     dispatch(doLogin({ email: email, password: password }))
   }
 
-//En cuanto haya un usuario logeado llevalo al Profile.
+//En cuanto haya un usuario logeado llevalo al Foro para añadir y editar.
   if(user && user.id){
     return (
-      <Navigate to="/profile" replace></Navigate>
+      <Navigate to="/foro" replace></Navigate>
     )
   }
 

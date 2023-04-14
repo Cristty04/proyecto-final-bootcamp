@@ -1,10 +1,12 @@
 import React from 'react';
 import Chatbot from 'react-simple-chatbot';
 import {Container} from "react-bootstrap"
-
+import { NavLink } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
 
 
 const ChatbotComponent = () => {
+        
     const steps=[
         {
             id:"greet",
@@ -65,14 +67,16 @@ const ChatbotComponent = () => {
         {
             id: 'contactar',
             message:"...sentados, con papel, boli y la tila... ¡Cúentame!",
+            // component: (<a href=" "><NavLink to='/AboutUs'> Logueate </NavLink></a>  ),
             end: true
-        },
+        },    
     ]
   return (
    <>
     <Container floated= "right">
         <Chatbot steps={steps}/>
     </Container>
+   
    </>
   )
 }

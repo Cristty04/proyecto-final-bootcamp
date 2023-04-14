@@ -4,6 +4,8 @@ import {
     GET_EVENTS_OK,
     GET_EVENTS_FAIL,
 } from './actionTypes';
+// constante para añadir eventos
+export const ApiJson = axios.create({baseURL:'http://localhost:3000'})
 
 //Aqui hay una reaccion'funcion' por cada acción
 export function actionGetEvents(){
@@ -41,3 +43,4 @@ export function getEvents(){
     }
     
 };
+
