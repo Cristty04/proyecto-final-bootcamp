@@ -13,12 +13,13 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
 
 import ProfilePage from './pages/ProfilePage/ProfilePage';
+import { useSelector } from 'react-redux';
 
 
 
 
 function App() {
-  const {user} = ((state)=> state.AuthReducer)
+  const {user} = useSelector((state)=> state.AuthReducer)
   return (
     <div className="App">
       <NavigationComponent/>
