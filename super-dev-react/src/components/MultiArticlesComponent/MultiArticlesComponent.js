@@ -32,11 +32,11 @@ const MultiArticlesComponent = () => {
             return(
                 <Card className='px-4 py-2 mb-3'>
                     <Card.Title>
-                            <Link to={`/post/${post.id}`}> {post.title}</Link> 
-                        </Card.Title>
-                        <Card.Body>
-                            {post.body}
-                        </Card.Body>
+                        <Link to={`/post/${post.id}`}> {post.title}</Link> 
+                    </Card.Title>
+                    <Card.Body>
+                        {post.body}
+                    </Card.Body>
                 </Card>
             )
         })}
