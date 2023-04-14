@@ -25,7 +25,10 @@ const steps = [
 
 const ThemedExample = () => (
   <ThemeProvider theme={theme}>
-    <ChatBot steps={steps} />;
+    <ChatBot 
+    steps={steps}
+    floating={true}
+    toggleFloating={this.toggleFloating} />;
   </ThemeProvider>
 );
 
