@@ -67,50 +67,9 @@ const ChatbotComponent = () => {
         {
             id: 'contactar',
             message:"...sentados, con papel, boli y la tila... ¡Cúentame!",
+            // component: (<a href=" "><NavLink to='/AboutUs'> Logueate </NavLink></a>  ),
             end: true
-        },
-        // {
-        //     id: "9",
-        //     component: (<a href=" "><NavLink to='/gallery'>Adoptar</NavLink></a>  ),
-        //     asMessage: true,
-        //     trigger: "preguntaVuelta"
-        // },
-        // {
-        //     id: "10",
-        //     component: (<a href=" "><NavLink to='/donaciones'>Formas de colaborar</NavLink></a>  ),
-        //     asMessage: true,
-        //     trigger: "preguntaVuelta"
-        // },
-        // {
-        //     id: "11",
-        //     component: (<a href=" "><NavLink to='/blog'>Blog</NavLink></a>  ),
-        //     asMessage: true,
-        //     trigger: "preguntaVuelta"
-        // },
-        // {
-        //     id: "12",
-        //     component: (<a href=" "><NavLink to='/contact'>Contacto</NavLink></a>  ),
-        //     asMessage: true,
-        //     trigger: "preguntaVuelta"
-        // },
-        // {
-        //     id: "13",
-        //     component: (<a href=" "><NavLink to='/about'>Quienes somos</NavLink></a>  ),
-        //     asMessage: true,
-        //     trigger: "preguntaVuelta"
-        // },
-       
-        // {
-        //     id: "preguntaVuelta",
-        //     message: "¿necesitas alguna cosa mas?",
-        //     trigger: "respuestaVuelta",
-        // }, 
-        // {
-        //     id: "respuestaVuelta",
-        //     options: [
-        //         {value: "s", label: "Si", trigger: "6A"},
-        //         {value: "n", label: "No", trigger: "6B"},
-        //     ],
+        },    
     ]
   return (
    <>

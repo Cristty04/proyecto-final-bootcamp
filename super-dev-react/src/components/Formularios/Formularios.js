@@ -73,10 +73,10 @@ const Formularios = () => {
           </textarea>
       </div>
 
-      <div className='ffichaForm3'>
+      <div className='fichaForm3'>
         <label htmlFor='image'> Elegir Archivos:</label>
           <input
-            type='file'
+            type='text'
             id='image'
             multiple
             {...register('image', { required: false })}/>
