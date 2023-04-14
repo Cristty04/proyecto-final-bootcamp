@@ -12,6 +12,7 @@ import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
 import Formularios from './components/Formularios/Formularios';
+import SinglePostPage from './pages/SinglePostPage/SinglePostPage';
 import { useSelector } from 'react-redux';
 import Forms from './components/Forms/Forms';
 
@@ -33,8 +34,7 @@ function App() {
         <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
         <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
         <Route exact path="/login" element={<LoginPage/>}></Route>
-        <Route path="/formularios" element={user && user.id?<Formularios/> : <Navigate to="/login" replace></Navigate>}></Route>
-        <Route path="/edit/:id" element={user && user.id?<Forms/> : <Navigate to="/login" replace></Navigate>}></Route>                                
+        <Route exact path="/profile" element={user && user.id?<ProfilePage/> : <Navigate to="/login" replace></Navigate>}></Route>                
 
       </Routes>
       </div>
