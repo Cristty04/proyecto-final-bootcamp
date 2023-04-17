@@ -1,12 +1,16 @@
 import {
     GET_POSTS,
     GET_POSTS_OK,
-    GET_POSTS_FAIL
+    GET_POSTS_FAIL,
+    GET_SINGLE_POST,
+    GET_SINGLE_POST_OK
 } from './actionTypes';
 
 const initalState ={
     posts:[],
     loadingPosts:false,
+    post: {},
+    loadingSinglePost: false,
     error: {
         message:""
     }
@@ -27,8 +31,23 @@ export default function ArticlesReducer(state = initalState, action){
             state = {...state, loadingPosts: false, posts:[], error: {message:action.payload}}
             break        
         
+        
+
+        case GET_SINGLE_POST:
+            state = {...state, loadingSinglePost: true}
+            break
+
+        case GET_SINGLE_POST_OK:
+            state = {...state, loadingSinglePost: false, post: action.payload}
+            break
+
+        case GET_POSTS_FAIL:
+            state = {...state, loadingSinglePost: false, post: {}, error: {message: action.payload}}
+            break
+            
         default:
             break
+    
     }
     return state
 }

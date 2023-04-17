@@ -30,14 +30,14 @@ const LoginComponent = () => {
   <Container>
     <Form>
       <FormGroup>
-        <FormLabel>Email</FormLabel>
-        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" type="email"></input>
+        <FormLabel className='m-1'>Email</FormLabel>
+        <input className='m-1' value={email} onChange={(e) => setEmail(e.target.value)} placeholder="email" type="email"></input>
       </FormGroup>
       <FormGroup>
-        <FormLabel>Password</FormLabel>
-        <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder="password" type="password"></input>
+        <FormLabel className='m-1'>Password</FormLabel>
+        <input className='m-1' value={password} onChange={(e) => setPassword(e.target.value)} placeholder="password" type="password"></input>
       </FormGroup>
-      <Button onClick={tryLogin}>Login</Button>
+      <Button className='mb-5 mt-5 ml-1'onClick={tryLogin}>Login</Button>
     </Form>
   </Container>
   )

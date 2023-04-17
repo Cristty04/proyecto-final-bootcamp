@@ -31,7 +31,7 @@ const MultiArticlesComponent = () => {
         {posts.map(post=>{
             return(
                 <Card className='px-4 py-2 mb-3'>
-                    <Card.Title>
+                    <Card.Title className='mt-3 mb-3'>
                             <Link to={`/post/${post.id}`}> {post.title}</Link> 
                         </Card.Title>
                         <Card.Body>

@@ -29,7 +29,7 @@ const NavigationComponent = () => {
           <Link className="nav-link" to='/events'> Events </Link>
           <Link className="nav-link" to='/music'> Music </Link>
           <Link className="nav-link" to='/horoscopos'> Horoscopos</Link>
-          <Link className="nav-link" to='/about-us'> About Us </Link>
+          {/* <Link className="nav-link" to='/about-us'> About Us </Link> */}
           {user && user.id? "" : <Link className="nav-link" to='/login'>Login</Link>}
           {user && user.id?  <Link className="nav-link" to='/Foro'>Foro</Link> : ""} 
           {user && user.id?  <Link onClick={closeSession} className="nav-link">Logout</Link> : ""}

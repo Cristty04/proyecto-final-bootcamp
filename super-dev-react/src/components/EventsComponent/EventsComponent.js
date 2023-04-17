@@ -39,7 +39,7 @@ const EventsComponent = () => {
           return (
             <Card>
               <Link key={event.id} to={`/edit/${event.id}`}>
-                  <Button> <p>Editar</p> </Button>
+                  <Button> <p className="m-1">Editar</p> </Button>
               </Link>
 
               <Card.Title className="mt-5 ms-5">{event.name}</Card.Title>
@@ -55,7 +55,7 @@ const EventsComponent = () => {
               
 
               <Button>
-                <p onClick={(ev) => deleteEvent(`${event.id}`)}>
+                <p className='m-1' onClick={(ev) => deleteEvent(`${event.id}`)}>
                   Eliminar evento
                 </p>
               </Button>

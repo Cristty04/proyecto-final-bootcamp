@@ -42,20 +42,20 @@ const Formularios = () => {
   return (
    
   <div className={styles.Formularios}>
-      <p>Como formas parte de la comunidad, puedes invitarnos a los eventos de lo que formes parte. 
+      <p className='m-5'>Como formas parte de la comunidad, puedes invitarnos a los eventos de lo que formes parte. 
       Así nos apoyaremos mutuamente, y todo el mundo estará al tanto. Dejanos los detalles de tu evento.
       </p>
-    <div className='addEvent'>
-    <h1> Añade tu evento </h1>
+    <div className='addEvent m-5'>
+    <h1 className='mb-5'> Añade tu evento </h1>
     <form onSubmit={handleSubmit(onAdding)}>
       <div className='fichaForm1'>
-        <label htmlFor='name'> Nombre Evento:</label>
+        <label className='m-3' htmlFor='name'> Nombre Evento:</label>
         <input
             className='input'
             type='text'
             id='name'
             {...register('name', { required: true })}/>
-            <label htmlFor='date'> Fecha: </label>
+            <label className='m-3' htmlFor='date'> Fecha: </label>
           <input
             type='text'
             id='date'
@@ -63,7 +63,7 @@ const Formularios = () => {
             </div>
             
       <div className='fichaform2'>
-        <label htmlFor='description'> Descripción: </label>
+        <label className='m-3' htmlFor='description'> Descripción: </label>
           <textarea
             id='description'
             name='description'
@@ -74,7 +74,7 @@ const Formularios = () => {
       </div>
 
       <div className='fichaForm3'>
-        <label htmlFor='image'> Elegir Archivos:</label>
+        <label className='m-3' htmlFor='image'> Elegir Archivos:</label>
           <input
             type='text'
             id='image'
@@ -82,7 +82,7 @@ const Formularios = () => {
             {...register('image', { required: false })}/>
       </div>
 
-        <button type='submit'> Añadir Evento</button>
+        <button className='m-3' type='submit'> Añadir Evento</button>
 
     </form>
   </div>

@@ -5,7 +5,7 @@ import MultiArticleComponent from '../../components/MultiArticlesComponent/Multi
 export default function ArticlePage(){
   return(
     <Container>
-      <h1> Las últimas novedades </h1>
+      <h1 className='mb-5 mt-5'> Las últimas novedades </h1>
       <MultiArticleComponent></MultiArticleComponent>
     </Container>
   )

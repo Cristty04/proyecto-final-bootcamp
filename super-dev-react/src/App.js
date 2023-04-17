@@ -8,12 +8,13 @@ import ArticlePage from './pages/ArticlePage/ArticlePage';
 import EventPage from './pages/EventsPage/EventPage';
 import HoroscoposPage from './pages/HoroscoposPage/HoroscoposPage';
 import MusicPage from './pages/MusicPage/MusicPage';
-import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
+// import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ChatbotComponent from './components/ChatbotComponent/ChatbotComponent';
 import Formularios from './components/Formularios/Formularios';
 import { useSelector } from 'react-redux';
 import Forms from './components/Forms/Forms';
+import SinglePostPage from './pages/SinglePostPage/SinglePostPage';
 
 
 
@@ -31,8 +32,9 @@ function App() {
         <Route exact path="/events" element={<EventPage/>}></Route>
         <Route exact path="/music" element={<MusicPage/>}></Route>
         <Route exact path="/horoscopos" element={<HoroscoposPage/>}></Route>
-        <Route exact path="/about-us" element={<AboutUsPage/>}></Route>
+        {/* <Route exact path="/about-us" element={<AboutUsPage/>}></Route> */}
         <Route exact path="/login" element={<LoginPage/>}></Route>
+        <Route exact path="/post/:id" element={<SinglePostPage/>}></Route>
         <Route path="/formularios" element={user && user.id?<Formularios/> : <Navigate to="/login" replace></Navigate>}></Route>
         <Route path="/edit/:id" element={user && user.id?<Forms/> : <Navigate to="/login" replace></Navigate>}></Route>                                
 
